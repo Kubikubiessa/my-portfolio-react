@@ -7,7 +7,7 @@ function Resume() {
 				<h1 className="page-header">My Resume</h1>
 			</div>
 			<div className="bottom-spacing">
-				<a href={require("/Users/heidrunkubiessa/Bootcamp/repos/weekly-challenges/my-portfolio-react/src/assets/Heidrun Kubiessa Resume EMBA .pdf")} download>
+				<a href={require("../../assets/Heidrun Kubiessa Resume EMBA .pdf")} download>
 					<h4>Download my Resume</h4>
 				</a>
 			</div>
