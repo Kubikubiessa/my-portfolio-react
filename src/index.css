@@ -5,15 +5,16 @@ main {
 }
 
 :root {
-	--primary: #499167;
-	--secondary: #332c2e;
-	--tertiary: #f0f2a6;
+	--primary: #a2beae;
+	--secondary: #443351;
+   
+	--secondary: linear-gradient(0deg, rgba(71,66,111,1) 0%, rgba(189,142,117,1) 100%);
+	--tertiary: #dfe1a7;
 	--quaternary: #a191a3;
-	--quinary: #bfd7ea;
-	--light: #bfd7ea;
-	--dark: #616a82;
-	--darker: #226d90;
-	--error: rgb(228, 46, 1);
+	--quinary: #cddce7;
+	--light: #d9e5ee;
+	--dark: #7e8393;
+	--darker: rgb(71,66,111);
 	--spacing-one: calc(1rem * 0.5);
 	--spacing-two: calc(1rem);
 	--spacing-five: calc(2.5rem);
@@ -53,12 +54,14 @@ code {
     monospace;
 }
 h1 {
-	font-size: 2.25rem;
+	font-size: 2.5rem;
   padding: 20px;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 3.5rem;
+  -webkit-text-stroke: .7px var(--light); 
+  /* padding: 10px; */
 }
 
 h3 {
@@ -78,7 +81,7 @@ h6 {
 }
 
 p {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	margin-top: 0;
   padding: 20px;
 }
@@ -103,12 +106,14 @@ ul{
 }
 ul li {
 	list-style: none;
+	display:flex;
   padding: 3px;
+  font-size: 1.5rem;
 
 }
 
 ol li {
-	list-style: inside;
+	list-style: none;
 }
 
 nav a:hover {
@@ -122,6 +127,14 @@ nav {
 	justify-content: space-between;
 	padding: 1rem;
 	text-align: center;
+  height: 110px;
+}
+
+.navbar-brand {
+  /* font-size: 2.5rem; */
+  color: var(--darker) ;
+  
+
 }
 
 nav a {
@@ -159,15 +172,19 @@ nav li {
   align-items: center;
   flex-direction: column;
 }
-.photo {
-	width: auto;
-	height: auto;
-	max-width: 200px;
-	max-height: 300px;
+.avatar {
+	/* width: auto;
+	height: auto; */
+	max-width: 300px;
+	max-height: 500px;
 	/* padding: 50px; */
-	margin-bottom: 50px;
-  border-radius: 50%;
+	/* margin-bottom: 50px; */
+  /* border-radius: 50%; */
+  /* border: 2px; */
+  /* border-color: var(--secondary); */
+  box-shadow: 30px 10px var(--secondary);
 }
+
 form {
   display: flex;
   padding: 20px;
@@ -252,6 +269,15 @@ textarea {
 .send-button[disabled] {
 	cursor: default;
 	opacity: .8;
+}
+
+.portfolio{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+	 
 }
 
 img {
@@ -372,8 +398,8 @@ span[role="img"] {
   flex-wrap: wrap;
   padding: 20 px;
   
-	width: 50px;
-	height: 50px;
+	width: 30px;
+	height: 30px;
 	margin: 30px;
 	cursor: pointer;
 }
@@ -399,7 +425,7 @@ span[role="img"] {
 
 .card-title {
 	font-size: 1.5rem;
-	color: var(--quaternary);
+	color: var(--darker);
 }
 
 .card-subtitle {
@@ -481,6 +507,8 @@ footer
 		max-width: 500px;
 		max-height: 300px;
 		padding: 50px;
+    
+  
 	}
 
 	input {

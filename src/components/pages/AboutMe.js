@@ -8,7 +8,7 @@ function AboutMe() {
 </div>
 <div className='page-center'>
     <img src={require('../../assets/me.png')} alt=' Heidrun Kubiessa'
-    className='photo'/>
+    className='avatar'/>
 
 </div>
 <div>

@@ -12,29 +12,30 @@ function Resume() {
 				</a>
 			</div>
 			<div className="resume">
-				<h5>Front-End Stack</h5>
+				<h4>Front-End Stack</h4>
 				<ol>
 					<li>HTML5</li>
-					<li>CSS3</li>
+					<li>CSS</li>
 					<li>JavaScript</li>
 					<li>jQuery</li>
 					<li>Bootstrap</li>
+					<li>Bulma</li>
 					<li>React</li>
 					<li>version control/Git</li> 
 					<li>responsive design</li>
 				</ol>
 				<br></br>
-				<h5>Back-End Stack</h5>
+				<h4>Back-End Stack</h4>
 				<ol>
 					<li>APIs</li>
 					<li>NodeJS</li>
 					<li>Express</li>
-					<li>Model View Controller (MVC)</li>
+					<li>Model View Controller</li>
 					<li>REST</li>
-					<li>Progressive Web Applications (PWA)</li>
+					<li>Progressive Web Applications</li>
 				</ol>
 				<br></br>
-				<h5>Dev Tool Experience</h5>
+				<h4>Dev Tool Experience</h4>
 				<ol>
 					<li>Git</li>
 					<li>npm</li>
@@ -42,7 +43,7 @@ function Resume() {
 					<li>Webpack</li>
 				</ol>
 				<br></br>
-				<h5>Database Experience</h5>
+				<h4>Database Experience</h4>
 				<ol>
 					<li>MySQL</li>
 					<li>Sequelize</li>

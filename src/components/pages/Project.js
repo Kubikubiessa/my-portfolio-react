@@ -41,7 +41,7 @@ function Project(props) {
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Text className="card-text">{description}</Card.Text>
-					<Card.Subtitle className="card-subtitle">Tech Used</Card.Subtitle>
+					<Card.Subtitle className="card-subtitle">Applied Technologies</Card.Subtitle>
 					<Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
 					<Card.Link href={appLink} target="_blank" className="card-link">
 						{name} App
