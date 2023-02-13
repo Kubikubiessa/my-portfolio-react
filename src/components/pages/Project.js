@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
 function Project(props) {
-	// This imports the information for the current project sent down.
+	// This imports the information sent down form the array named projects in the Portfolio component for rendering  the project cards. It distributes the data onto the variable currentProject in order to divide out the data onto the card.
 	const currentProject = useState(props)[0].projects;
 
 	const name = currentProject.name;
@@ -12,7 +12,7 @@ function Project(props) {
 	const appLink = currentProject.deployed;
 	const gitLink = currentProject.github;
 
-	// This function parses the information from the array and creates a list.
+	// This function parses the information from the technologies array and creates a list of the technologies applied for each project for the card.
 	function getTechs(techArray) {
 		let techList = "";
 
@@ -26,9 +26,10 @@ function Project(props) {
 
 		return techList;
 	}
-
+//the jsx return returns the card for each respective project which will then go back to the Portfolio component to be rendered in the portfolio return
 	return (
-		<Card style={{ width: "18rem" }}>
+		<Card style={{ width: "18rem" }}
+        className="project-card">
 			 <Card.Img
 				variant="top"
 				src={image}
@@ -36,7 +37,7 @@ function Project(props) {
                 /> 
 		
 		
-			<div className="center">
+			<div className="center-page">
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Text className="card-text">{description}</Card.Text>
@@ -47,7 +48,7 @@ function Project(props) {
 					</Card.Link>
 					<br></br>
 					<Card.Link href={gitLink} target="_blank" className="card-link">
-						{name} Github
+						{name} on Github
 					</Card.Link>
 				</Card.Body>
 			</div>

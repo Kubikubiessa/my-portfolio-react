@@ -42,7 +42,7 @@ function Portfolio() {
       name: "Tech-Blog ",
       description:
         "This project entails a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
-      image: "/assets/Creating a blog.png",
+      image: "/assets/Creating-a-blog.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -67,7 +67,7 @@ function Portfolio() {
       name: "Password Generator",
       description:
         "This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.",
-      image: "/assets/pw generator 2.png",
+      image: "/assets/pw-generator-2.png",
       technologies: ["HTML/CSS", "JavaScript"],
       github: "https://github.com/Kubikubiessa/password-generator",
     },
@@ -75,14 +75,14 @@ function Portfolio() {
       name: "Note Taker",
       description:
         "This application allows the user to enter notes and as they save. Notes can be deleted by clicking the trash can next to the corresponding note.",
-      image: "/assets/MockupImage.png",
+      image: "/assets/mockup.png",
       technologies: ["HTML/CSS", "JavaScript", "Express.js"],
       github: "https://github.com/Kubikubiessa/note-taker",
     },
   ];
 
   return (
-    <section>
+    <section className="portfolio">
       <div className="page-center">
         <h1 className="page-header">My Portfolio</h1>
       </div>

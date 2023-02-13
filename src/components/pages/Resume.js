@@ -11,7 +11,7 @@ function Resume() {
 					<h4>Download my Resume</h4>
 				</a>
 			</div>
-			<div>
+			<div className="resume">
 				<h5>Front-End Stack</h5>
 				<ol>
 					<li>HTML5</li>
