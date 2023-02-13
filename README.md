@@ -17,7 +17,10 @@ Go to the repo of this app on github, go on the code tab and copy the repo on th
 This app is meant to show a developers recent work and achievements.
 
 ## Mockup
-[Images of the app] ()
+![image](./public/assets/mockup-pics/mockup4.png)
+![image](./public/assets/mockup-pics/mockup3.png)
+![image](./public/assets/mockup-pics/mockup2.png)
+![image](./public/assets/mockup-pics/mockup1.png)
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
