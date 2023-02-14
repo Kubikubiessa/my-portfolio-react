@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
+
 function Project(props) {
 	// This imports the information sent down form the array named projects in the Portfolio component for rendering  the project cards. It distributes the data onto the variable currentProject in order to divide out the data onto the card.
-	const currentProject = useState(props)[0].projects;
+	const projectCard = useState(props)[0].projects;
 
-	const name = currentProject.name;
-	const description = currentProject.description;
-	const image = currentProject.image;
-	const techs = currentProject.technologies;
-	const appLink = currentProject.deployed;
-	const gitLink = currentProject.github;
+	const name = projectCard.name;
+	const description = projectCard.description;
+	const image =  projectCard.image;
+	const techs = projectCard.technologies;
+	const appLink = projectCard.deployed;
+	const gitLink = projectCard.github;
 
 	// This function parses the information from the technologies array and creates a list of the technologies applied for each project for the card.
 	function getTechs(techArray) {
