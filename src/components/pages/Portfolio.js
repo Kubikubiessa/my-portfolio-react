@@ -67,7 +67,7 @@ function Portfolio() {
       name: "Password Generator",
       description:
         "This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.",
-      image: "/assets/pw-generator-2.png",
+      image: "/assets/pw-generator.png",
       technologies: ["HTML/CSS", "JavaScript"],
       github: "https://github.com/Kubikubiessa/password-generator",
     },
@@ -88,28 +88,13 @@ function Portfolio() {
       </div>
       <div>
         <ul className="flex-row mobile-row">
-          <li className="padding">
-            <Project projects={projects[0]}></Project>
-          </li>
-          <li className="padding">
-            <Project projects={projects[1]}></Project>
-          </li>
-        </ul>
-        <ul className="flex-row mobile-row">
-          <li className="padding">
-            <Project projects={projects[2]}></Project>
-          </li>
-          <li className="padding">
-            <Project projects={projects[3]}></Project>
-          </li>
-        </ul>
-        <ul className="flex-row mobile-row">
-          <li className="padding">
-            <Project projects={projects[4]}></Project>
-          </li>
-          <li className="padding">
-            <Project projects={projects[5]}></Project>
-          </li>
+          {projects.map((project) => {
+            return (
+              <li className="padding">
+                <Project  key={project.name} projects={project}></Project>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>
