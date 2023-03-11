@@ -8,6 +8,15 @@
       github: "https://github.com/Kubikubiessa/Social-Network-API",
     },
     {
+      name: "Easy-USDA",
+      description:
+        "This API, using Express.js for routing, a MongoDB database, Graphql, React, and the Mongoose ODM, allows users to query the official USDA API for information on a given food and/or ingredient to a food.",
+      image: "/assets/Home-screen2.png",
+      technologies: ["JavaScript", "Node.js", "Express & NoSQL", "Graphql,React"],
+      github: "https://github.com/Kubikubiessa/easy-usda",
+      deployed: "https://easy-usda.herokuapp.com/",
+    },
+    {
       name: "Beer Finder",
       description:
         "This is a web application that allows the user search to put in their current location and will find the 6 nearest breweries!",
@@ -39,7 +48,7 @@
       name: "Tech-Blog ",
       description:
         "This project entails a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
-      image: "/assets/Creating-a-blog.png",
+      image: "./assets/_Creating-a-blog.png",
       technologies: [
         "HTML/CSS",
         "JavaScript",
@@ -64,7 +73,7 @@
       name: "Password Generator",
       description:
         "This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.",
-      image: "/assets/pw-generator.png",
+      image: "/assets/pw-generator-2.png",
       technologies: ["HTML/CSS", "JavaScript"],
       github: "https://github.com/Kubikubiessa/password-generator",
     },
